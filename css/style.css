@@ -1,0 +1,37 @@
+header {background: url('../img/headerbgmob.jpg') center/cover ; }
+nav { background-color: #FFFFFFAA}
+ :root{
+     --blue: #6bc2f1
+ }
+
+.vh-50 { height: 50vh }
+.vh-33 { height: 33.3vh }
+.re { display:block ; width: 350px; height: 300px;}
+
+#img1 { background: url('../img/img1.jpg') center/cover }
+#img11:hover{  display: flex;} 
+#img2 { background: url('../img/img2.jpg') center/cover }
+#icon1 { background: url('../img/1.png') center/cover; width: 59px; height: 68px;}
+#icon2 { background: url('../img/2.png') center/cover; width: 37px; height: 68px;}
+#icon3 { background: url('../img/3.png') center/cover; width: 77px; height: 67px;}
+#icon4 { background: url('../img/4.png') center/cover; width: 75px; height: 66px;}
+#icon5 { background: url('../img/5.png') center/cover; width: 49px; height: 70px;}
+#icon6 { background: url('../img/6.png') center/cover; width: 65px; height: 71px;}
+#col1 {background: url('../img/i1.jpg') center/cover;}
+#col2 {background: url('../img/i2.jpg') center/cover;}
+#col3 {background: url('../img/i3.jpg') center/cover;}
+#col4 {background: url('../img/i4.jpg') center/cover;}
+#col5 {background: url('../img/i5.jpg') center/cover;}
+#col6 {background: url('../img/i6.jpg') center/cover;}
+
+.fs-05{font-size: 0.7em;}
+.bg-blue { background-color: var(--blue)}
+.bg-dblue { background-color: #072035}
+.bg-gray { background-color: #f1f1f1}
+.text-blue { color: var(--blue)}
+.text-gray { color: #b5bdc3}
+.border-blue {border-color: var(--blue);}
+
+@media only screen and (min-width: 768px){
+    header {background: url('../img/headerbg.jpg') center/cover; }
+}
